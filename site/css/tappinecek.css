@@ -1,0 +1,15 @@
+body{cursor:url(site/source/cursor.html),auto!important;background:#000;color:#fff;overflow:hidden;font-family:monospace;text-shadow:0 0 10px #000;text-align:center}@font-face{font-family:"delight crush display - personal";src:url(site/source/font.html)}#tappinecek{position:absolute;left:50%;top:40%;transform:translate(-50%,-50%);text-align:center}#writing{position:absolute;left:50%;top:47%;transform:translate(-50%,-50%);text-align:center}#members{position:absolute;left:50%;top:55%;transform:translate(-50%,-50%);text-align:center;font-size:16px}#links{position:absolute;left:50%;top:65%;transform:translate(-50%,-50%);text-align:center;font-size:14px}video{position:absolute;min-width:100%;min-height:100%;top:50%;left:50%;z-index:-100;transform:translateX(-50%) translateY(-50%)}pre{font-size:100px;letter-spacing:20px;font-family:"delight crush display - personal";text-shadow:-2px 0 red,2px 0 #0bf,1px 2px green;animation-name:intro;animation-duration:1s;animation-iteration-count:1}a{color:#fff;cursor:url(site/source/cursor.html),auto!important}a:hover{text-shadow:0 0 5px #fff,0 0 15px #fff,0 0 30px #fff}a:link{transition:margin .666s ease,font-size .666s ease}a:link:hover{margin:5px;font-size:16px}h1{font-size:1em;color:#fff}span{border-right:.069em solid;animation:caret 1s steps(1) infinite}@keyframes caret{50%{border-color:transparent}}@keyframes intro{0%{transform:scale(3,3); } 100%{transform:scale(1,1)}}
+#violet pre {
+    margin-top: 15%;
+  }  
+  @font-face {
+    font-family: "Heartless";
+    src: url(../source/heartless.ttf);
+}
+
+
+  .foo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
