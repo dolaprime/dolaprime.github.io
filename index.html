@@ -19,25 +19,11 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     
     </head>
-    <body onload="playMusic()">
-      <iframe src=site/source/silence.mp3 type="audio/mp3" allow="autoplay" id="audio" style="position: absolute; left: -900000px"></iframe>
-      <audio id="divAudio" loop autoplay>
-          <source src=site/source/music.mp3 type="audio/mp3">
-          <script>
-              var audio = document.currentScript.parentElement;
-              audio.volume = 0.10;
-          </script>
-          <script>
-              var vAudio = document.getElementById("divAudio");
-              function playMusic() { vAudio.play(); }
-          </script>
-      </audio>  
-    
-    <video preload="none" loop muted autoplay style="filter: brightness(25%) opacity(100%) blur(15px) grayscale(100%) saturate(100%);">
+    <video preload="none" loop autoplay style="filter: brightness(25%) opacity(100%) blur(15px) grayscale(100%) saturate(100%);">
         <source id="played" src=site/source/video.mp4 type="video/mp4">
         <script>
         var audio = document.currentScript.parentElement;
-        audio.currentTime = 1;
+        audio.volume = 0.10;
         </script>
         </video>
         <div id="violet">
