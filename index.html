@@ -22,15 +22,10 @@
   <audio id="divAudio" loop autoplay>
       <source src="site/source/music.mp3" type="audio/mp3">
       <script>
-          var audio = document.currentScript.parentElement;
+          var audio = document.getElementById("divAudio");
           audio.volume = 0.10;
+          divAudio.muted = false;
       </script> 
-</script>
-<script>
-  unmuteButton.addEventListener('click', function() {
-    audio.muted = false;
-  });
-</script>
   </audio>  
 
 <video preload="none" loop muted autoplay style="filter: brightness(25%) opacity(100%) blur(15px) grayscale(100%) saturate(100%);">
