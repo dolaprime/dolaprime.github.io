@@ -1,47 +1,67 @@
 <head>
-    <title>dolaprime.cf</title>
-    
-    <link rel="icon" type="image/png" sizes="2000x2000" href="./favicon.png">
-    <link rel="stylesheet" href="site/css/tappinecek.css">
-    
-    
-    <script src="site/js/title.js"></script>
-    <script src="site/js/writing.js"></script>
-    <script src="site/js/x.js"></script>
-    <script src="site/js/y.js"></script>
-    <script src="site/js/z.js"></script>
-    
-    <meta charset="utf-8">
-    <meta name="author" content="Lucid">
-    <meta name="og:image" content="https://tappinecek.xyz/site/source/icon.gif">
-    <meta name="og:description" content="">
-    <meta name="theme-color" content="#ffffff">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    
-    </head>
-    <video preload="none" loop autoplay style="filter: brightness(25%) opacity(100%) blur(15px) grayscale(100%) saturate(100%);">
-        <source id="played" src=site/source/video.mp4 type="video/mp4">
-        <script>
-        var audio = document.currentScript.parentElement;
-        audio.volume = 0.10;
-        </script>
-        </video>
-        <div id="violet">
-            <div class="color">
-        <pre style="font-size: 111px; font-family: 'Heartless';">dolaprime</pre>
-        </div>
-        <div id="writing">
-        <h1><3</h1>
-        </div>
-    
-    <style>
-      #foo {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-      }
-    </style>
-    
-    <div id="foo"><a href="https://dsc.gg/dolaprime">discord</a></div>
-    
-    
+<title>dolaprime.cf</title>
+
+<link rel="icon" type="image/png" sizes="2000x2000" href="./favicon.png">
+<link rel="stylesheet" href="site/css/tappinecek.css">
+
+
+<script src="site/js/title.js"></script>
+<script src="site/js/writing.js"></script>
+<script src="site/js/x.js"></script>
+<script src="site/js/y.js"></script>
+<script src="site/js/z.js"></script>
+
+<meta charset="utf-8">
+<meta name="author" content="Lucid">
+<meta name="og:image" content="https://tappinecek.xyz/site/source/icon.gif">
+<meta name="og:description" content="">
+<meta name="theme-color" content="#ffffff">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+</head>
+  <audio id="divAudio" loop autoplay>
+      <source src="site/source/music.mp3" type="audio/mp3">
+      <script>
+          var audio = document.currentScript.parentElement;
+          audio.volume = 0.10;
+      </script>
+      <script>
+          var vAudio = document.getElementById("divAudio");
+          function playMusic() { vAudio.play(); }
+      </script>
+      <script type="text/javascript">
+function autoplay(){
+    var r =confirm("Start Music?");
+    if (r == true) {
+        document.getElementById("divAudio").play();
+    }
+  }
+</script>
+<script>autoplay();</script>
+  </audio>  
+
+<video preload="none" loop muted autoplay style="filter: brightness(25%) opacity(100%) blur(15px) grayscale(100%) saturate(100%);">
+    <source id="played" src="site/source/video.mp4" type="video/mp4">
+    <script>
+    var audio = document.currentScript.parentElement;
+    audio.currentTime = 1;
+    </script>
+    </video>
+    <div id="violet">
+        <div class="color">
+    <pre style="font-size: 111px; font-family: 'Heartless';">dolaprime</pre>
+    </div>
+    <div id="writing">
+    <h1><3</h1>
+    </div>
+
+<style>
+  #foo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+</style>
+
+<div id="foo"><a href="https://dsc.gg/dolaprime">discord</a></div>
+
